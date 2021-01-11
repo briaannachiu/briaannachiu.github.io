@@ -14,7 +14,7 @@
   }
 }
 
-body {
+body { 
   display: flex;
   --text: 2vh;
   --proj-head: 4vh;
@@ -24,8 +24,18 @@ body {
   --blue: rgb(8, 61, 119);
   --turq: rgb(78, 205, 196);
   background: var(--blue);
-  margin-bottom: 4vh;
-}
+  margin-bottom: 4vh;}
+
+ .cursor{
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   background-color: #f5f5f5;
+   pointer-events: none;
+   mix-blend-mode: difference;
+   z-index: 999;
+   transition: transform 0.2s;
+ }
 
 #fixed {
   display: flex;
