@@ -9,16 +9,17 @@
 }
 
 @media only screen and (max-width: 768px) {
-  #nav{ display: none; }
+  #nav { display: none; } 
+  #notice { display: show;}
+}
 @media only screen and (min-width: 769px) {
-  #notice { display: none; }
+  #nav { display: show; }
+  #notice { display: none;}
 }
 
 #notice { 
   width: 100%;
   height: auto;
-  display: flex;
-  justify-content: center;  
   padding: 70% 50%;
   overflow: hidden;
     }
@@ -33,7 +34,8 @@ body {
   --blue: rgb(8, 61, 119);
   --turq: rgb(78, 205, 196);
   background: var(--blue);
-  margin-bottom: 4vh;}
+  margin-bottom: 4vh;
+  overflow: scroll; }
 
  .cursor{
    width: 20px;
@@ -72,10 +74,12 @@ body {
   color: var(--turq);
   margin: 1%;
 }
+
 .work:hover {
   animation-name: shake;
   -webkit-animation: shake 1s infinite linear;
 }
+
 @-webkit-keyframes shake {
   0% {
     transform: rotate(0deg);
@@ -96,6 +100,7 @@ body {
     transform: rotate(2deg);
   }
 }
+
 #home {
   fill: var(--yellow);
   margin: 0;
