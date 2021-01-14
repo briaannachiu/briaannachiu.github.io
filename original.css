@@ -9,11 +9,22 @@
 }
 
 @media only screen and (max-width: 768px) {
-  #desc {
-    display: none;
-  }
+  #nav{ display: none; }
+@media only screen and (min-width: 769px) {
+  #notice{ display: none; }
 }
 
+#notice { 
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;  
+  padding: 70% 50%;
+  overflow: hidden;
+  
+  
+    }
+  
 body { 
   display: flex;
   --text: 2vh;
@@ -106,10 +117,11 @@ body {
   }
 }
 
-p {
+p { display: flex; 
   font-family: reg;
   font-size: var(--text);
   color: var(--yellow);
+  self-align: center;
 }
 a.about:link {
   text-decoration: none;
