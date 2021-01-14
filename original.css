@@ -14,6 +14,15 @@
   #notice{ display: none; }
 }
 
+#notice { 
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;  
+  padding: 70% 50%;
+  overflow: hidden;
+    }
+  
 body { 
   display: flex;
   --text: 2vh;
