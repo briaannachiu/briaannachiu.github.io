@@ -119,12 +119,15 @@ body {
     transform: rotate(360deg);
   }
 }
-
-p { display: flex; 
+#type { display: flex; 
+  font-family: reg;
+  font-size: var(--text);
+  color: var(--turq);
+}
+#text { display: flex; 
   font-family: reg;
   font-size: var(--text);
   color: var(--yellow);
-  self-align: center;
 }
 a.about:link {
   text-decoration: none;
@@ -159,7 +162,7 @@ a.proj:hover {
   height: 40vh;
   width: 26vw;
   left: 24vw;
-  margin-top: 55vh;
+  margin-top: 50vh;
   line-height: 2.5vh;
   overflow: scroll;
 }
