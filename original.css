@@ -17,12 +17,6 @@
   #notice { display: none;}
 }
 
-#notice { 
-  width: 100%;
-  height: auto;
-  padding: 70% 50%;
-  overflow: hidden;
-    }
   
 body { 
   display: flex;
@@ -36,6 +30,15 @@ body {
   background: var(--blue);
   margin-bottom: 4vh;
   overflow: scroll; }
+
+#notice { 
+  width: 100%;
+  height: auto;
+  padding: 70% 50%;
+  overflow: hidden;
+  color: var(--yellow);
+  font-family: reg; 
+    }
 
  .cursor{
    width: 20px;
