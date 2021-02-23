@@ -166,7 +166,7 @@ a.proj:hover {
   left: 24vw;
   margin-top: 50vh;
   line-height: 2.5vh;
-  overflow:  none;
+  overflow: hidden; 
 }
 
 #images {
