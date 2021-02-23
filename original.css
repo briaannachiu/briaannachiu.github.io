@@ -28,8 +28,7 @@ body {
   --blue: rgb(8, 61, 119);
   --turq: rgb(78, 205, 196);
   background: var(--blue);
-  margin-bottom: 4vh;
-  overflow: scroll; }
+  margin-bottom: 4vh; }
 
 #notice { 
   width: 100%;
@@ -167,7 +166,7 @@ a.proj:hover {
   left: 24vw;
   margin-top: 50vh;
   line-height: 2.5vh;
-  overflow: scroll;
+  overflow:  none;
 }
 
 #images {
