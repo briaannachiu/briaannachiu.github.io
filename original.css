@@ -39,17 +39,6 @@ body {
   font-family: reg; 
     }
 
- .cursor{
-   width: 20px;
-   height: 20px;
-   border-radius: 50%;
-   background-color: #f5f5f5;
-   pointer-events: none;
-   mix-blend-mode: difference;
-   z-index: 999;
-   transition: transform 0.2s;
- }
-
 #fixed {
   display: flex;
   height: 100%;
@@ -166,7 +155,7 @@ a.proj:hover {
   left: 24vw;
   margin-top: 50vh;
   line-height: 2.5vh;
-  overflow:  none;
+  overflow: hidden; 
 }
 
 #images {
