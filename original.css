@@ -173,6 +173,14 @@ a.proj:hover {
   margin-left: 5vw;
   margin-top: 4vh;
 }
+
+#images > video {
+  width: 45vw;
+  height: auto;
+  margin-left: 5vw;
+  margin-top: 4vh;
+}
+
 #site {
   color: var(--pink);
 }
