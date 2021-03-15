@@ -44,7 +44,7 @@ body {
   height: 100%;
   width: 48vw;
 }
-#nav > #name {
+.about {
   font-family: med;
   font-size: var(--head);
   color: var(--pink);
