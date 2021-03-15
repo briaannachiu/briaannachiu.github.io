@@ -44,13 +44,13 @@ body {
   height: 100%;
   width: 48vw;
 }
-.about {
-  font-family: med;
+.about { font-family: med;
   font-size: var(--head);
-  color: var(--pink);
-  margin-top: 1vh;
+  color: var(--pink); 
+  margin-top: 1vh; 
   margin-bottom: 2vh;
-}
+  }
+
 #nav {
   position: fixed;
   margin-top: 6vh;
